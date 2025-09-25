@@ -1,0 +1,253 @@
+.ServiceCardBigContainer{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    margin-top: 120px;
+    box-sizing: border-box;
+}
+.ServiceCardBigContainer h2 {
+    font-size: 2.8em;
+    margin-bottom: 50px;
+    color: #34b3f1;
+    position: relative;
+    display: inline-block;
+}
+
+.ServiceCardBigContainer h2::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 4px;
+    background: #ffcc00;
+    bottom: -15px;
+    left: 20%;
+}
+.ServiceCardBigContainer .ServiceCardContainer{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.ServiceCardContainer .ServiceCard{
+    width: 330px;
+    height: 605px;
+    background-color: white;
+    border: 2px solid rgb(223, 216, 216);
+    border-radius: 25px;
+    padding: 15px;
+    position: relative;
+    z-index: 2;
+}
+.ServiceCardContainer .ServiceCard .Person{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    position: relative;
+    gap: 5px;
+    
+}
+.ServiceCardContainer .ServiceCard .Person p{
+    color: #1d2241;
+}   
+
+.ServiceCardContainer .ServiceCard .Person img{
+    width: auto;
+    height: 100%;
+}
+.ServiceCardContainer .ServiceCard .MuiCheckbox-root{
+    color: rgb(0, 183, 255);
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+.ServiceCard video{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.ServiceCard .ServiceCategory div{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(215, 244, 255);
+    color: blue;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px;
+    width: 130px;
+    text-align: center;
+}
+.ServiceCard .Features{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.ServiceCard .Features img{
+    height: 25px;
+    width: auto;
+}
+.ServiceCard .Features p{
+    color: #989898;
+    margin-right: 20px;
+}
+.ServiceCard .ServiceName{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: poppins;
+    border-bottom: 2px solid rgb(192, 191, 191);
+    padding-bottom: 15px;
+}
+.ServiceCard .Rating{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: poppins;
+}
+.ServiceCard .Rating span{
+    font-weight: 700;
+}
+.ServiceCard .Price p{
+    position: absolute;
+    right: 15px;
+    bottom: 75px;
+    font-size: 25px;
+    font-weight: 700;
+    color: blue;
+}
+.ServiceCard .OfferBtn{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.ServiceCard button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    position: relative;
+    padding: 0 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 0;
+    box-shadow: hsl(210deg 87% 36%) 0px 7px 0px 0px;
+    background-color: hsl(210deg 100% 44%);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 31ms cubic-bezier(.5, .7, .4, 1);
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+   }
+   
+   .ServiceCard button:before {
+    content: attr(alt);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 4px;
+    opacity: 1;
+   }
+   
+   .ServiceCard button:active {
+    box-shadow: none;
+    transform: translateY(7px);
+    transition: 35ms cubic-bezier(.5, .7, .4, 1);
+   }
+   
+   .ServiceCard button:hover:before {
+    transition: all .0s;
+    transform: translateY(100%);
+    opacity: 0;
+   }
+   
+   .ServiceCard button i {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-style: normal;
+    transition: all 2s ease;
+    transform: translateY(-20px);
+    opacity: 0;
+   }
+   
+   .ServiceCard :hover i {
+    transition: all .2s ease;
+    transform: translateY(0px);
+    opacity: 1;
+   }
+   
+   .ServiceCard button:hover i:nth-child(1) {
+    transition-delay: 0.045s;
+   }
+   
+   .ServiceCard button:hover i:nth-child(2) {
+    transition-delay: calc(0.045s * 3);
+   }
+   
+   .ServiceCard button:hover i:nth-child(3) {
+    transition-delay: calc(0.045s * 4);
+   }
+   
+   .ServiceCard button:hover i:nth-child(4) {
+    transition-delay: calc(0.045s * 5);
+   }
+   .ServiceCard button:hover i:nth-child(5) {
+    transition-delay: calc(0.045s * 6);
+   }
+   .ServiceCard button:hover i:nth-child(6) {
+    transition-delay: calc(0.045s * 7);
+   }
+   
+   .ServiceCard button:hover i:nth-child(7) {
+    transition-delay: calc(0.045s * 8);
+   }
+   
+   .ServiceCard button:hover i:nth-child(8) {
+    transition-delay: calc(0.045s * 9);
+   }
+   
+   .ServiceCard button:hover i:nth-child(9) {
+    transition-delay: calc(0.045s * 10);
+   }
+   
+   .ServiceCard button:hover i:nth-child(10) {
+    transition-delay: calc(0.045s * 11);
+   }
+   .ServiceCard button:hover i:nth-child(11) {
+    transition-delay: calc(0.045s * 12);
+   }
+   .ServiceCard button:hover i:nth-child(12) {
+    transition-delay: calc(0.045s * 13);
+   }
+   .ServiceCard button:hover i:nth-child(13) {
+    transition-delay: calc(0.045s * 14);
+   }
+   .ServiceCard button:hover i:nth-child(14) {
+    transition-delay: calc(0.045s * 15);
+   }
+   .ServiceCard button:hover i:nth-child(15) {
+    transition-delay: calc(0.045s * 16);
+   }

@@ -1,0 +1,124 @@
+.BBBContainer{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(245deg, #34b3f1, #001f4d);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid white;
+    
+}
+.BBBContainer h1{
+    font-size: 3.8em;
+    margin-bottom: 0;
+    color: white;
+}
+.BBBContainer h1 span{
+    color: #ffcc00;
+}
+.BBBContainer p{
+    font-size: 1.5em;
+    margin-top: 0;
+    color: white;
+}
+.BBBContainer input{
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    padding: 30px 150px 30px 60px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white ;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+.BBBContainer input:focus{
+    box-shadow: 0px 0px 10px white;
+}
+.BBBContainer input:focus::placeholder{
+    color: transparent;
+} 
+.BBBContainer input::placeholder{
+    color: white;
+    opacity: .6;
+}
+.BBBContainer .InputImg img{
+    width: auto;
+    height: 40px;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: 10px;
+
+}
+.BBBContainer .InputImg{
+    position: relative;
+    width: 50%;
+    display: flex;
+    margin-top: 20px;
+}
+.InputImg form{
+    width: 100%;
+}
+.BBBContainer .InputImg button{
+    position: absolute;
+    right: 13px;
+    border-radius: 20px;
+    border: 0;
+    height: 40px;
+    top: calc(50% - 20px);
+    box-sizing: border-box;
+    padding: 0px 25px;
+    font-size: 17px;
+    background-color: #ffcc00;
+    color: black;
+    font-weight: 700;
+}
+.BBBContainer .InputImg button:hover{
+    background-color: #ff9900;
+    cursor: pointer;
+}
+.BBBContainer .InputImg button:active{
+    transform: scale(0.95);
+}
+.BBBContainer .Checked{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.BBBContainer .FirstChecked{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BBBContainer .SecondChecked{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.BBBContainer .ThirdChecked{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.BBBContainer .Checked img{
+    width: 25px;
+    height: auto;
+    filter: drop-shadow(0px 0px 10px #ffcc00);
+}
+.BBBContainer .Checked span{
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}

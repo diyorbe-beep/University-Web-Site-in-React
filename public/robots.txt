@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /src/
+Disallow: /scripts/
+Disallow: /private/
+Disallow: /login
+Disallow: /register
+
+# Allow full access to the sitemap
+Sitemap: https://andmi.uz/sitemap.xml

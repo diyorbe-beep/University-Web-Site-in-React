@@ -1,0 +1,95 @@
+.profile-wrapper {
+  padding: 24px 16px;
+  display: grid;
+  gap: 16px;
+}
+
+.profile-card {
+  background: #ffffff;
+  border: 1px solid #e6e8eb;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.06);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.profile-title { margin: 0 0 10px 0; }
+
+.profile-row { margin-bottom: 8px; color: #374151; }
+.profile-row span { color: #6b7280; margin-right: 6px; }
+
+.orders-section { display: grid; gap: 12px; }
+.orders-title { margin: 8px 0; }
+.orders-empty { color: #6b7280; }
+
+.order-card {
+  background: #fff;
+  border: 1px solid #e6e8eb;
+  border-radius: 12px;
+  padding: 12px;
+}
+.order-head { margin-bottom: 6px; }
+.order-line { color: #374151; }
+.order-actions { margin-top: 8px; }
+.order-btn {
+  padding: 8px 12px;
+  background: linear-gradient(90deg, #0ea5e9, #2563eb);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 12px;
+}
+.status-approved { background: #10b981; }
+.status-pending { background: #f59e0b; }
+.status-rejected { background: #ef4444; }
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(17, 24, 39, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+.modal {
+  width: 100%;
+  max-width: 560px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid #eef2f7;
+}
+.modal-close {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.modal-body {
+  padding: 16px;
+  display: grid;
+  gap: 8px;
+}
+.modal-row { color: #374151; }
+.modal-row span { color: #6b7280; margin-right: 6px; }
+.modal-footer {
+  padding: 12px 16px;
+  border-top: 1px solid #eef2f7;
+  display: flex;
+  justify-content: flex-end;
+}

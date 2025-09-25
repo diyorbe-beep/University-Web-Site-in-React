@@ -1,0 +1,53 @@
+.BigContainer{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+}
+.TopHeaderContainer{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+}
+.TopHeaderContainer .left{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.TopHeaderContainer .left img{
+    width: 30px;
+    height: 30px;
+}
+.TopHeaderContainer .left p{
+    color: white;
+    margin-right: 20px;
+}
+.TopHeaderContainer .right{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: end;
+}
+.TopHeaderContainer .right a{
+    display: flex;
+    align-items: center;
+}
+.TopHeaderContainer .right a:hover{
+    transform: perspective();
+}
+.TopHeaderContainer .right img{
+    width: 30px;
+    height: 30px;
+}
+.TopHeaderContainer .right p{
+    color: white;
+}
